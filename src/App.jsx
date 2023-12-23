@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 // import DetailSurahApi from "./api/DetailsurahApi";
 import DetailPages from "./pages/Detail";
 // import BasicExample from "./components/Navbar";
-import Tafsir from "./components/Tafsir";
+// import Tafsir from "./components/body/tafsir/Tafsir";
 // import Data from "./components/body/details/Data";
 import Data from "./components/body/home/Data";
 
@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/surat/:id" element={<DetailPages />} />
         {/* <Route path="/surat/:id" element={<BasicExample />} /> */}
-        <Route path="/getdata" element={<Tafsir />} />
+        {/* <Route path="/getdata" element={} /> */}
         <Route path="/data" element={<LocalStorage />} />
       </Routes>
     </Router>
