@@ -1,6 +1,7 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
-import Example from "../../../Tafsir";
+// import Example from "../../../Tafsir";
+import Example from "../../tafsir/Tafsir";
 import '../../../../styles/index.css';
 
 
